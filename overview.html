@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Labour</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+  <!-- Notify -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+      <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+          <a href="overview.html" class="list-group-item border-0 py-2 shadow-none ripple" aria-current="true">
+            <i class="fas fa-meteor fa-fw me-3"></i><span>Main dashboard</span>
+          </a>
+          <a href="overview.html" class="list-group-item border-0 py-2 shadow-none ripple active">
+            <i class="fas fa-chart-line fa-fw me-3"></i><span>Overview</span>
+          </a>
+          <a href="myprojects.html" class="list-group-item border-0 py-2 shadow-none ripple"><i
+              class="fas fa-compass-drafting fa-fw me-3"></i><span>My projects</span></a>
+          <a href="#" class="list-group-item border-0 py-2 shadow-none ripple"><i
+              class="fas fa-car fa-fw me-3"></i><span>Vehicles</span></a>
+          <a href="#" class="list-group-item border-0 py-2 shadow-none ripple">
+            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Report</span>
+          </a>
+          <a href="#" class="list-group-item border-0 py-2 shadow-none ripple"><i
+              class="fas fa-calendar-check fa-fw me-3"></i><span>Calender</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+          aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="25" alt="" loading="lazy" />
+        </a>
+
+        <!-- Right links -->
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <!-- Notification dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+              role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Some news</a></li>
+              <li><a class="dropdown-item" href="#">Another news</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- Icon -->
+          <!-- <li class="nav-item">
+            <a class="nav-link me-3 me-lg-0" href="#">
+              <i class="fas fa-fill-drip"></i>
+            </a>
+          </li> -->
+
+          <!-- Avatar -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+              id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" class="rounded-circle" height="22"
+                alt="" loading="lazy" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">My profile</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main style="margin-top: 58px">
+    <div class="container pt-4">
+      <section>
+        <h1>Projects</h1>
+        <div class="container">
+          <div class="accordion accordion-borderless bg-white" id="accordionFlushExampleX">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOneX">
+                <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+                  data-mdb-target="#flush-collapseOneX">
+                  <strong>Project</strong> :1
+                </button>
+              </h2>
+              <div id="flush-collapseOneX" class="accordion-collapse collapse show" aria-labelledby="flush-headingOneX"
+                data-mdb-parent="#accordionFlushExampleX">
+                <div class="accordion-body">
+                  details...
+                  <div class="mt-3 d-flow-root">
+                    <button name="apply" class="btn btn-primary float-end">Apply</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwoX">
+                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                  data-mdb-target="#flush-collapseTwoX" aria-expanded="false" aria-controls="flush-collapseTwoX">
+                  <strong>Project</strong> :2
+                </button>
+              </h2>
+              <div id="flush-collapseTwoX" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoX"
+                data-mdb-parent="#accordionFlushExampleX">
+                <div class="accordion-body">
+                  details...
+                  <div class="mt-3 d-flow-root">
+                    <a name="apply" class="btn btn-primary float-end">Apply</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThreeX">
+                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                  data-mdb-target="#flush-collapseThreeX" aria-expanded="false" aria-controls="flush-collapseThreeX">
+                  <strong>Project</strong> :3
+                </button>
+              </h2>
+              <div id="flush-collapseThreeX" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeX"
+                data-mdb-parent="#accordionFlushExampleX">
+                <div class="accordion-body">
+                  details...
+                  <div class="mt-3 d-flow-root">
+                    <a name="apply" class="btn btn-primary float-end">Apply</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Projects-->
+    </div>
+  </main>
+  <!--Main layout-->
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Notify JS -->
+  <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/admin.js"></script>
+
+</body>
+
+</html>
